@@ -47,6 +47,7 @@ function    draw()
         rect(-lWidth*.5,-lWidth*.5,lWidth,lWidth);
     }else if(shapeName == "Triangle")
     {
+        rotate(radians(randomAngleLock(90)));
         translate(-lWidth*.5,-lWidth*.5);
         triangle(0,0,lWidth,lWidth,0,lWidth);
     }
